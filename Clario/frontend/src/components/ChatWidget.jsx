@@ -95,7 +95,7 @@ export default function ChatWidget({ documentText }) {
     setMessages((prev) => [...prev, { role: 'assistant', content: '' }]);
 
     try {
-      const response = await fetch('http://localhost:8000/api/chat', {
+      const response = await fetch('https://clario-1-tsp6.onrender.com/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -103,7 +103,6 @@ export default function ChatWidget({ documentText }) {
           question: query,
         }),
       });
-
       if (!response.ok) {
         throw new Error('Failed to fetch response from assistant.');
       }
