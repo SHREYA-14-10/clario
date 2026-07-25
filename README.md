@@ -31,8 +31,6 @@ cd Clario/frontend
 npm install
 npm run dev
 
-App runs at http://localhost:5173, API at http://localhost:8000.
-
 API
 POST /api/analyze — upload a file or raw_text, returns structured risk audit JSON
 POST /api/chat — streams a grounded Q&A answer (SSE)
