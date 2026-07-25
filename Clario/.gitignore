@@ -11,11 +11,6 @@ env/
 dist/
 build/
 
-# ── Environment / Secrets ───────────────────────────────────────────────────────
-.env
-# Keep .env.example committed (no real secrets in it)
-!.env.example
-
 # ── Node / Frontend ─────────────────────────────────────────────────────────────
 node_modules/
 frontend/dist/
