@@ -4,7 +4,6 @@ Clario — AI-Powered Contract Guardian
 
 Clario lets you upload or paste a contract and instantly get a plain-English AI risk audit — flagging auto-renewal traps, hidden fees, data-harvesting clauses, liability waivers, and unilateral change terms.
 
-Live demo: https://clario-cly5.onrender.com/
 
 Tech Stack
 Backend: FastAPI (Python) + Google Gemini API (gemini-2.5-flash, with fallback models)
